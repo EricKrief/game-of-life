@@ -1,0 +1,52 @@
+body{
+    background-color: #3f3f3f;
+}
+
+td{
+    width: 0.2em;
+    height: 0.2em;
+}
+
+table{
+    margin:auto;
+    background-color: white;
+}
+
+button{
+    width: 8em;
+    height: 3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.dimensions{
+    width: 4em;
+    height: 2em;
+}
+
+.header-div-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-span-num{
+    margin-left: 1em;
+    display: block;
+    font-weight: bold;
+}
+
+.header-button-new{
+    background-color: blue;
+}
+
+.header-button-pause{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.header-div-inner{
+    font-weight: bold;
+}

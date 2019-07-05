@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="my-css.css">
+    <title>Game Of Life</title>
+</head>
+
+<body>
+    <div class="header-div-container">
+        <button onclick="newGame()" class="header-button-new" disabled>New Game</button>
+        <button onclick="togglePause()" class="header-button-pause" disabled>Pause</button>
+        <button onclick="start()">Start</button>
+        <div>
+            Rows
+            <input class="dimensions" type="number" onchange="handleDimensions()"/>
+            Columns
+            <input class="dimensions" type="number" onchange="handleDimensions()"/>
+        </div>
+        <div>
+            <input class="radio" type="radio" name="test" value="random" onchange="radio(this)" />Random
+        </div>
+        <div>
+            <input class="radio" type="radio" name="test" value="choose" onchange="radio(this)" />Choose Cells
+        </div>
+
+
+
+
+        <div class="header-div-inner">
+            Live Cells
+            <span class="header-span-num">
+                0
+            </span>
+        </div>
+    </div>
+
+    <script src="game-of-life.js"></script>
+</body>
+
+</html>
